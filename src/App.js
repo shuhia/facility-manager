@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Facilities from "./components/facilities/Facilities";
+import { Navbar } from "./components/Navbar";
+import ErrorBoundary from "./components/ErrorBoundary";
+import { Box } from "@mui/system";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box backgroundColor="#F8F9FA">
+      <Navbar></Navbar>
+      <ErrorBoundary>
+        <Facilities></Facilities>
+      </ErrorBoundary>
+    </Box>
   );
 }
 
