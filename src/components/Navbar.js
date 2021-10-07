@@ -111,21 +111,23 @@ export const Navbar = function (props) {
               }}
             >
               <Box sx={{ display: "flex", gap: 1 }}>
-                <Link href="#" underline="hover" color="black">
+                <Link href="home" underline="hover" color="black">
                   Home
                 </Link>
-                <Link href="#" underline="hover" color="orange">
-                  Facility
+                <Link href="/facilities" underline="hover" color="orange">
+                  Facilities
                 </Link>
-                <Link href="#" underline="hover" color="black">
+                <Link href="/tournaments" underline="hover" color="black">
                   Tournaments
                 </Link>
-                <Link href="#" underline="hover" color="black">
+                <Link href="/my/tournaments" underline="hover" color="black">
                   My Tournaments
                 </Link>
               </Box>
               <Box sx={{ textAlign: "center" }}>
-                <Logo></Logo>
+                <Link href="/">
+                  <Logo></Logo>
+                </Link>
               </Box>
               <Box
                 sx={{
