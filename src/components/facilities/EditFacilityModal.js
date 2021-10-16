@@ -47,6 +47,7 @@ export const EditFacilityModal = (props) => {
     console.log("submit");
     const updatedFacility = { ...facility, name, address, type };
     handleSave(updatedFacility);
+    handleClose();
   };
 
   const handleDelete = () => {
