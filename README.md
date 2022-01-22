@@ -1,3 +1,6 @@
+This project is a golf facility manager. It was created to test my skills in React.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
