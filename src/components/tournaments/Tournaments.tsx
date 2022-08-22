@@ -1,4 +1,4 @@
-import React, { FunctionComponent, ReactComponentElement } from "react";
+import React, { FunctionComponent } from "react";
 import { Container } from "@mui/material";
 interface TournamentsProps {}
 

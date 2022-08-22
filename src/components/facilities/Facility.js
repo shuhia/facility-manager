@@ -7,7 +7,7 @@ import Tooltip from "@mui/material/Tooltip";
 
 export const Facility = function (props) {
   const { handleOpen } = props;
-  const { name, address, id, createAd, type } = props.facility;
+  const { name, address, id, type } = props.facility;
 
   const handleClick = () => {
     handleOpen(id);

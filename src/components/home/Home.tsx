@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Box } from "@mui/material";
+import { Box } from "@mui/material";
 import backgroundImage from "../assets/backgrounds/trackman_golf_when_technology_meets_passion_2.jpg";
 import styled from "styled-components";
 

@@ -2,7 +2,7 @@ import Facilities from "./components/facilities/Facilities";
 import { Navbar } from "./components/Navbar";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { Box } from "@mui/system";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Tournaments } from "./components/tournaments/Tournaments";
 import Home from "./components/home/Home";
 
